@@ -3,17 +3,17 @@ from django.http import Http404, HttpResponseNotFound, HttpResponseRedirect
 from django.urls import reverse
 
 monthly_challenges_dict = {
-    "january": "drink water",
-    "february": "walk 15 min a day",
-    "march": "sleep 8 hours a day",
-    "april": "go to the gym twice a week",
-    "may": "run 30 min a day",
-    "june": "read 5 books",
-    "july": "drink no energy drinks",
-    "august": "drink no alcohol",
-    "september": "20 push ups a day",
-    "october": "go to sleep before 23:00",
-    "november": "eat no sugar",
+    "january": ["drink water"],
+    "february": ["walk 15 min a day", "eat 1 onion a day", "wake up before 5:00"],
+    "march": ["sleep 8 hours a day"],
+    "april": ["go to the gym twice a week"],
+    "may": ["run 30 min a day"],
+    "june": ["read 5 books"],
+    "july": ["drink no energy drinks"],
+    "august": ["drink no alcohol"],
+    "september": ["20 push ups a day"],
+    "october": ["go to sleep before 23:00"],
+    "november": ["eat no sugar"],
     "december": None
 }
 

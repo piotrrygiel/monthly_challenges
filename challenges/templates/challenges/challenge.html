@@ -14,7 +14,11 @@
     {% include "challenges/includes/header.html" %}
     <h1>{{ month_name|title }} Challenge:</h1>
     {% if text is not None %}
-        <h2>{{ text }}</h2>
+    <ul>
+        {% for challenge in text %}
+            <li><h2>🔥{{ challenge }}</h2></li>
+        {% endfor %}
+    </ul>
     {% else %}
         <p class="fallback">There is no challenge set for this month.</p>
     {% endif %}

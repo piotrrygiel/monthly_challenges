@@ -19,3 +19,8 @@ h2{
     text-align: center;
     color: white;
 }
+
+ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
